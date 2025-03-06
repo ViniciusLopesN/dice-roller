@@ -12,6 +12,7 @@ body{
   display: flex;
   flex-direction: column;
   gap: 10px;
+  align-items: center;
 }
 
 #input{
@@ -19,6 +20,7 @@ body{
   font-size: 1.2em;
   gap: 5px;
   align-items: center;
+  justify-content: center;
 }
 
 #display-text{
@@ -28,13 +30,32 @@ body{
 #mid-section{
   display: flex;
   font-size: 1.2em;
+  max-width: 500px;
+  flex-wrap: wrap;
+  word-break: break-all;
   justify-content: center;
 }
 
-button{
+button {
   background-color: lightskyblue;
   border-radius: 5px;
   padding: 6px 10px;
   border: none;
   color: white;
+}
+
+img {
+  display: flex;
+  max-width: 75px;
+  max-height: auto;
+  border-radius: 5px;
+  outline: 3px solid firebrick;
+  outline-offset: -3px;
+}
+
+#dice-display {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 500px;
+  gap: 10px;
 }
