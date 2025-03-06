@@ -1,0 +1,40 @@
+html,
+body{
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    background: hsl(0, 0%, 95%);
+    text-align: center;
+}
+
+#main-card{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#input{
+  display: flex;
+  font-size: 1.2em;
+  gap: 5px;
+  align-items: center;
+}
+
+#display-text{
+  margin-right: 10px;
+}
+
+#mid-section{
+  display: flex;
+  font-size: 1.2em;
+  justify-content: center;
+}
+
+button{
+  background-color: lightskyblue;
+  border-radius: 5px;
+  padding: 6px 10px;
+  border: none;
+  color: white;
+}
