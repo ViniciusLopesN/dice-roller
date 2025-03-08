@@ -18,12 +18,15 @@ function rollDice(instances) {
 
 button.addEventListener("click", () => {
   diceValues.length = 0;
+  console.log(diceValues.length);
   diceDisplay.innerHTML = '';
   let numberOfDice = inputForm.value;
   if (numberOfDice > 100) {
    diceDisplay.textContent = 'Too many dice, please choose 100 or less';
+   includeText.textContent = diceValues;
   }
   else{
   rollDice(numberOfDice);
+  includeText.textContent = diceValues;
   }
 })
